@@ -27,7 +27,7 @@ const initialAuthState = { isAuthenticated: false };
 const authSlice = createSlice({
   name: "auth",
   initialState: initialAuthState,
-  reducer: {
+  reducers: {
     login(state) {
       state.isAuthenticated = true;
     },
